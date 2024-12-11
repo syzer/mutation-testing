@@ -79,4 +79,4 @@ All files |   0.00 |    0.00 |        0 |         0 |          3 |        0 |   
 15:07:47 (46748) INFO MutationTestExecutor Done in 2 seconds.
 ```
 Clearly shows that tests are `weak`.
-5. Bonus
+5. Bonus points: go to `__tests__/test.js` and modify tests that they are `good`
