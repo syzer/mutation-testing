@@ -1,0 +1,17 @@
+{
+  "name": "mutation-testing",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --coverage --testPathIgnorePatterns='/.stryker-tmp/'",
+    "stryker": "stryker run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@stryker-mutator/jest-runner": "^8.7.1",
+    "jest": "^29.7.0"
+  }
+}
